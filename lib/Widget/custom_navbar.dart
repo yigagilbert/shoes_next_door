@@ -28,7 +28,7 @@ class cosutom_navbar extends StatelessWidget {
                   color: Colors.white,
                 ),
                 onPressed: () {
-                  Navigator.pushNamed(context, '/');
+                  Navigator.pushNamed(context, '/cart');
                 }),
             IconButton(
                 icon: Icon(
