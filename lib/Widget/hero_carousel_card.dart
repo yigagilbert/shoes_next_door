@@ -50,7 +50,7 @@ class HeroCarouselCard extends StatelessWidget {
                   padding:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                   child: Text(category.name,
-                      style: Theme.of(context).textTheme.headline4!.copyWith(
+                      style: Theme.of(context).textTheme.headline6!.copyWith(
                             color: Colors.white,
                           )),
                 ),
