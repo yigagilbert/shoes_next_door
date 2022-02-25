@@ -15,24 +15,28 @@ class Category extends Equatable {
 
   static List<Category> categories = [
     Category(
+        name: 'Men sports wear',
+        imageUrl:
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Fsport.jpg?alt=media&token=8acbbfee-00f8-4b62-8787-fae598b565d6'),
+    Category(
         name: 'Men Office wear',
         imageUrl:
-            'https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/186456034_1231521987265481_6109405080727672787_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=mr0Nwhq6nLYAX-wUwLZ&tn=RBgOy3DqbJ7uT6w_&_nc_ht=scontent-otp1-1.xx&oh=00_AT-3pzEMzQYs1n8tlSavuMKCZlAMdJquYQwFSV-PLodRIQ&oe=623F61EE'),
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/office_wear2.jpg?alt=media&token=0f57fbd1-c6b0-457f-acac-5a79a7d3b54c'),
     Category(
         name: 'Ladies Office wear',
         imageUrl:
-            'https://www.facebook.com/photo/?fbid=1245681065893710&set=gm.367861775012576&__cft__[0]=AZXa3k2dl54E9wUY6GjwWdiDOTdJc83l8TwS2_k3oXdnr9TprgZPRJrxbBxudlebt55ScO7z_VW1HEH-uYBu5H1Qa-rYRXlFprNScM3klpLUsFH33RsP7m9CJapchne2hUi0R0JRhPOi1j-WQdfnnazMtiwmmo2a9zxPyryCQrbjCXExaQZF-6RUe8RFCPY7dcI&__tn__=EH-R'),
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Flad_office.jpg?alt=media&token=55854505-9f4f-4af6-a3f9-f9516756038a'),
     Category(
         name: 'Men open',
         imageUrl:
-            'https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/200305061_1250352065382473_5538580942938380067_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=kM6dyIxOnY8AX_HOpml&_nc_ht=scontent-otp1-1.xx&oh=00_AT-V1PP2Mw69WUvwkJy8erJkxKBW_jq4ojlIrajAdjUaSw&oe=623D76CE'),
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Fopen1.jpg?alt=media&token=a2541ba2-517a-4673-b399-fc7044750df6'),
     Category(
         name: 'ladies',
         imageUrl:
-            'https://www.facebook.com/photo/?fbid=113770691234881&set=g.254696292995792'),
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Flad1.jpg?alt=media&token=5549428a-12f5-49fa-befa-3ce95df008bb'),
     Category(
         name: 'Work outs',
         imageUrl:
-            'https://www.facebook.com/Kenny-shoe-selling-page-602645133486506/photos/pcb.1323572691393743/1323572444727101/?__cft__[0]=AZVsXpikasijJ4Lo6Fxwx5d-j1xdixquIHe4OlXMHAMUbbsE6CwTEDAFognuRsBNvCv27YshI0z-4GBJ3vhhskcysnyK1iK1SW9NBUZIv4r6IeqFg4UjiZSTtjP5H4erwFidUHwRnDkuw2Te1KTaxgkwAa-gNHY3wB8nLk3p8fx-eoWZYOe2wHHa02rCC60ZC4I&__tn__=*bH-R'),
+            'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Fboot.jpg?alt=media&token=79da9146-1760-49f1-85ad-6f63b6e539ff'),
   ];
 }
