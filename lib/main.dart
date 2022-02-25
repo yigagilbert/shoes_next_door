@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:shoes_next_door/config/app_router.dart';
+import 'package:shoes_next_door/config/themes.dart';
 
 import 'Screens/home/home.dart';
 
@@ -15,9 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Kenny collections ',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: theme(),
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialRoute: HomeScreen.routeName,
     );
