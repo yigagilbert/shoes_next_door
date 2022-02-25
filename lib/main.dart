@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:shoes_next_door/config/app_router.dart';
 
-import 'Screens/home.dart';
+import 'Screens/home/home.dart';
 
 void main() {
   runApp(MyApp());
