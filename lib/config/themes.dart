@@ -50,10 +50,5 @@ TextTheme textTheme() {
       fontSize: 10,
       fontWeight: FontWeight.bold,
     ),
-    headline1: TextStyle(
-      color: Colors.black,
-      fontSize: 32,
-      fontWeight: FontWeight.bold,
-    ),
   );
 }
