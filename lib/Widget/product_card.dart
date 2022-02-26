@@ -16,7 +16,7 @@ class ProductCard extends StatelessWidget {
           width: MediaQuery.of(context).size.width / 2.5,
           height: 150,
           child: Image.network(
-            Product.products[0].imageUrl,
+            product.imageUrl,
             fit: BoxFit.cover,
           ),
         ),

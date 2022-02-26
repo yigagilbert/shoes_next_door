@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:shoes_next_door/Widget/widget.dart';
-import 'package:shoes_next_door/models/category_model.dart';
 import 'package:shoes_next_door/models/models.dart';
 
 class HomeScreen extends StatelessWidget {

@@ -30,7 +30,7 @@ class Product extends Equatable {
             'https://firebasestorage.googleapis.com/v0/b/mobigarage-f42ff.appspot.com/o/shoes%2Fsport.jpg?alt=media&token=8acbbfee-00f8-4b62-8787-fae598b565d6',
         price: 2.99,
         isRecommended: true,
-        isPopular: true),
+        isPopular: false),
     Product(
         name: 'name',
         category: 'Men Office wear',
