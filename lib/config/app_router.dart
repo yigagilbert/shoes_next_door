@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoes_next_door/Screens/screens.dart';
+import 'package:shoes_next_door/models/category_model.dart';
 
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
@@ -13,7 +14,7 @@ class AppRouter {
       case ProductScreen.routeName:
         return ProductScreen.route();
       case CatalogScreen.routeName:
-        return CatalogScreen.route();
+        return CatalogScreen.route(category: settings.arguments as Category);
       case WishlistScreen.routeName:
         return WishlistScreen.route();
 
